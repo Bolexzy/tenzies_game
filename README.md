@@ -6,7 +6,7 @@ A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](h
 
 ## Live Links 🔗
 
-[vercel]()
+[Tenzies](https://tenzies-game-brown.vercel.app)
 
 ## Getting Started
 

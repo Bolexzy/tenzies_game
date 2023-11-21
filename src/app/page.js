@@ -150,7 +150,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-col items-center justify-between gap-2 text-xs md:text-base">
+      <div className="flex flex-col items-center justify-between gap-2 text-xs md:text-base my-2">
         <h2 className="font-mono text-xs md:text-base">
           Number of Rolls:{" "}
           <span
@@ -201,7 +201,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3  md:grid-cols-5 gap-5">{diceElements}</div>
+      <div className="grid grid-cols-3  md:grid-cols-5 gap-5 my-1">{diceElements}</div>
       <button
         className={`${styles.roll_dice} h-[50px] w-[100px] border-none rounded-md	bg-[#5035FF] text-white texts-sm focus:outline-none cursor-pointer`}
         onClick={rollDice}
